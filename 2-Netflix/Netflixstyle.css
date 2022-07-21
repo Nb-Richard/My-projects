@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+           }
+
+  .background{
+        background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/1ef84595-1fdb-4404-adac-15215ceeb3ae/5ebd5ccb-bd76-4b54-8b65-3ed7f8dd94c2/MY-en-20220711-popsignuptwoweeks-perspective_alpha_website_medium.jpg") ;                
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 110%;
+        height: 680px;
+        filter: brightness(40%);     
+        background-color: black;          
+            }
+
+        .foreground{
+            top: 30%;
+            left: 25%;
+            width: 50%;
+            position: absolute;
+            text-align: center;
+            color: white;
+        font-size: 25px;
+        
+        }
+
+        .email{
+            width: 67%;
+            height: 50px;
+            font-size: 15px;
+        }
+
+        .button{
+            width: 30%;
+            height: 56px;
+            background-color: rgb(214, 12, 12);
+            color: white;
+            border: 0px;
+            font-size: 25px;
+        }
+
+        .inline{
+            display: flex;
+        }
+
+        .logo{
+            top: 1px;
+            left: 40px;
+            position: absolute;
+        }
+        .signin{
+            top: 30px;
+            right: 60px;
+            position: absolute;
+        }
+        .butt{
+            width: 85px;
+            height: 36px;
+            background-color: rgb(214, 12, 12);
+            color: white;
+            border: 0px;
+            border-radius: 3px;
+            font-size: 17px;
+        }
+        .select{
+            width: 140px;
+            height: 36px;
+            margin-right: 30px;
+            background-color: transparent;
+            color: white;
+            border-radius: 3px;
+            font-size: 17px;
+        }
+
+        .general{
+            margin: 0;
+            background-color: black;
+                     
+
+        }
+
+        .divs{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .writing{
+            color: white;
+            width: 40%;
+            text-align: left;
+            font-size: 25px;
+            margin-left: 10%;            
+        }
+        .writing2{
+            color: white;
+            width: 40%;
+            text-align: left;
+            font-size: 25px;
+            margin-right: 10%;
+        }
+        .writing3{
+            color: white;
+            width: 45%;
+            text-align: left;
+            font-size: 24px;
+            margin-right: 10%;
+        }
+
+        .images{
+            width: 45%;
+        }
+        .images2{
+            width: 45%;
+            margin-left: 10%;
+        }
+
+        .faq{
+            font-size: 25px; 
+            text-align: center;
+            
+        }
+
+        .div2{
+            background-color: #303030;
+            text-align: left;
+            height: 70px;
+            width: 60%;
+            padding-left: 30px;
+            margin-left: 20%; 
+        }
+
+        .snd{
+            margin-left: 25%;
+            width: 50%;
+           
+            text-align: center;
+            color: white;
+        font-size: 25px;
+        }

@@ -1,0 +1,46 @@
+body{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ max-width: 50%;
+ margin: auto;   
+ 
+ 
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.div2{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.table{
+    overflow-x:auto;
+}
+
+.span{
+    color: coral;
+}
+
+.p{
+    letter-spacing: 1px;
+    color: gray;
+}
+
+th{
+    min-width: 200px;
+    display: block;
+    text-align: left;
+    color: coral;
+    
+}

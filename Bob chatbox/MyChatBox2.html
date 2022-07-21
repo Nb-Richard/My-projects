@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ChatBot </title>
+    <link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <img src="bot.png" alt="Robot cartoon" class="img">
+    <div id="app" class="box">
+<div style="text-align: center;" class="top">
+    <h1>Send A Message !</h1>
+</div>
+<div class="mid">
+    <div class="chat">
+        <h2>Bob's Answers are below</h2>
+        <p id="chatLog">Let's Chat</p>
+    </div>
+</div>
+    <div class="input">
+    <input type="text" id="userBox" v-on:keydown.enter="talk()" placeholder="Type A Message">
+    </div>
+    </div>
+    <img src="bot.png" alt="Robot cartoon" class="img">
+
+
+    <script src="https://unpkg.com/vue@next"></script>
+        <script>
+            let app = Vue.createApp({
+                data() {
+                    return{                       
+                    }
+                },
+
+                methods: {
+                    talk(){
+    var know ={
+        "?":"sure",
+        "!":"Whoa, chill out!",
+        "!?":"Calm down, I know what I'm doing!",
+        "bob":"Fine. Be that way!"
+    };
+    var user = document.getElementById('userBox').value;
+    document.getElementById('chatLog').innerHTML = user + "<br>";
+    if(user in know){
+        document.getElementById('chatLog').innerHTML = know[user] + "<br>";
+    }else{
+        document.getElementById('chatLog').innerHTML = "whatever";
+    }
+}
+                },
+            })
+
+            app.mount('#app')
+        </script>
+
+</body>
+</html>
