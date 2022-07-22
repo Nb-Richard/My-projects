@@ -37,17 +37,21 @@
                 methods: {
                     talk(){
     var know ={
-        "?":"sure",
-        "!":"Whoa, chill out!",
-        "!?":"Calm down, I know what I'm doing!",
-        "bob":"Fine. Be that way!"
+        "hi":"hello, how are you",
+        "hello":"hi, how are you",
+        "fine":"great. what is your name",
+        "i'm fine":"great. what is your name",
+        "fine and you":"I'm Fine too",
+        "how are you":"I'm Fine, how are you",
+        "what is your name":"i'm Bob, and you",
+        "bye":"bye",
     };
     var user = document.getElementById('userBox').value;
     document.getElementById('chatLog').innerHTML = user + "<br>";
     if(user in know){
         document.getElementById('chatLog').innerHTML = know[user] + "<br>";
     }else{
-        document.getElementById('chatLog').innerHTML = "whatever";
+        document.getElementById('chatLog').innerHTML = "try another statement";
     }
 }
                 },
