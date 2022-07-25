@@ -1,0 +1,52 @@
+body{
+    background-image: url('./project-4.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 33%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+}
+
+#timer{
+    font-size: 70px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 10px;
+    border: none;
+}
+
+i {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+
+#play{
+    background-color: green;
+}
+#pause {
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
+
